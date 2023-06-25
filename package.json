@@ -1,0 +1,21 @@
+{
+  "name": "hapi-framework",
+  "version": "1.0.0",
+  "description": "Learning Framework js with hapi, validate data with joi, and custom error exceptions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon node index.js"
+  },
+  "keywords": [
+    "javascript",
+    "hapi-framework",
+    "joi-validator"
+  ],
+  "author": "Mahmuda Karima",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "joi": "^17.9.2"
+  }
+}
